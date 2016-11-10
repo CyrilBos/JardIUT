@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ARTICLE>
+<article>
 
-  <TITRE>Compte rendu du 10/11/2016 [A FAIRE]</TITRE>
-  <DATE>xx/11/2016</DATE>
-  <AUTEUR>Marceau Jeanjean</AUTEUR>
-  <ILLUSTRATION>slide_3.jpg</ILLUSTRATION>
+  <titre>EEEEEEEEEEEE</titre>
+  <date>jj/mm/aaaa</date>
+  <auteur>EEEEEE</auteur>
+  <illustration>arduino.jpg</illustration>
 
-  <TEXTE>
-      contenu de l'article, contenu de l'article.
-      contenu de l'article.. saute saute pas
-  </TEXTE>
+  <contenu>
+    <paragraphe>
+      <image legende="bitch">slide_1.jpg</image>
+      <texte>AZZZZZZZZZZZZA</texte>
+    </paragraphe>
+  </contenu>
 
-</ARTICLE>
+</article>

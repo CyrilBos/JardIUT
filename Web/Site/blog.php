@@ -55,19 +55,22 @@
                 $i = 0;
                 foreach ($files as $file) {
                   try {
-                    $xml = simplexml_load_file($file);
+                    $article = simplexml_load_file($file);
                     ?>
                     <div class="col-lg-12 text-center">
-                        <img class="img-responsive img-border img-full" src="img/<?php echo $xml->ILLUSTRATION; ?>" alt="">
-                        <h2><?php echo $xml->TITRE; ?>
+                        <img class="img-responsive img-border img-full" src="img/<?php echo $article->illustration; ?>" alt="">
+                        <h2><?php echo $article->titre; ?>
                             <br>
-                            <small>Le <?php echo $xml->DATE; ?> par <?php echo $xml->AUTEUR; ?></small>
+                            <small>Le <?php echo $article->date; ?> par <?php echo $article->auteur; ?></small>
                         </h2>
-                        <p class="blog-article" id="article-<?php echo $i; ?>">
+                        <div class="blog-article" id="article-<?php echo $i; ?>">
                           <?php
-                          echo str_replace("/saut", "<br/>", $xml->TEXTE);
+                          $paragraphes = $article->contenu;
+                          foreach($paragraphes as $p) {
+                            echo "<p>" + $p->texte + "</p>";
+                          }
                           ?>
-                        </p>
+                        </div>
                         <button class="btn btn-default btn-lg" onclick="toggle_article('#article-<?php echo $i; ?>');">Lire l'article</button>
                         <hr>
                     </div>

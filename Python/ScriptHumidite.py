@@ -1,4 +1,8 @@
 #!/usr/bin/python
-print ("bonjoiur")
-#recupérer informations du capteuur d'humidité
-#En fonction d
+import serial
+
+ser = serial.Serial('/dev/ttyACM1')
+while True:
+	ser.write("abi")
+
+	print ser.readline()

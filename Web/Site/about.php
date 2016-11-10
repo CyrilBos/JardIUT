@@ -70,7 +70,7 @@
                     <hr>
                 </div>
                 <div class="col-sm-4 text-center">
-                    <img class="img-responsive" src="img/team/narcisse.jpg" alt="">
+                    <img class="img-responsive" src="img/team/lotus.jpg" alt="">
                     <h4>Antoine Boulangé
                         <br /><small>IUT Informatique</small>
                     </h4>
@@ -130,7 +130,7 @@
                     </h4>
                 </div>
                 <div class="col-sm-4 text-center">
-                    <img class="img-responsive" src="img/team/lotus.jpeg" alt="">
+                    <img class="img-responsive" src="img/team/narcisse.jpeg" alt="">
                     <h4>Cyril
                         <br /><small>ENSEIRB MATMECA</small>
                     </h4>

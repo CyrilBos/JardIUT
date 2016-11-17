@@ -1,0 +1,8 @@
+- Groupe Manel
+- Mp
+
+L'équipe ARDUINO a travaillé sur la pompe. L'objectif était d'écrire un programme analysant les données récupérées par le capteur d'humidité. Si la valeur détectée est trop faible, il actionne la pompe et, si la valeur est trop élevée, l'arrête. Pour ce faire, il a été necessaire de définir, dans un premier temps, les différents seuils d'humidité, puis de définir les conditions en fonction des seuils d'humidité definis précedement pour faire fonctionner la pompe. 
+
+Cette séance a vu la création du GitHub permettant l'échange intelligent et simplifié de fichiers entre les différents membres. 
+
+L'équipe WEB a effectué l'intégration de fichier xml en article sur le site Internet pour faire état des avancement du projet au fil des séances. De plus, les dits fichiers ont commencé à être rédigés.

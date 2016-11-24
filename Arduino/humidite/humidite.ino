@@ -35,7 +35,11 @@ void loop() {
   input = "0";
   if (input == "0") {
     mode = 0;
-  }  
+  }
+  else if (input == "1") {
+    mode = 1;
+  }
+  
   switch(mode) {
     case 0:
       break;

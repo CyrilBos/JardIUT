@@ -16,7 +16,7 @@ int mode;
 void setup() {
     Serial.begin(9600);
     pinMode(PUMP_PIN, OUTPUT);
-    humidity.output_port = 1;
+    humidity.output_port = 0;
     humidity.low_threshold = 280;
     humidity.high_threshold = 490;
 }
@@ -32,7 +32,7 @@ void desactive_pompe() {
 
 void loop() {
   //String input = Serial.readString();
-  input = "0";
+  input = "1";
   if (input == "0") {
     mode = 0;
   }
